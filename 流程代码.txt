@@ -1,0 +1,69 @@
+[
+  {
+    "message": {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "Vă mulțumim că vă plac produsele noastre, faceți clic pe butonul de mai jos pentru a obține informațiile dorite.",
+          "buttons": [
+            {
+              "type": "postback",
+              "payload": "MANYCHATJSON(18769734)::ACT::b0be1a7e554e6cd17d03e761aacff6c0",
+              "title": "Pretul pachetului?"
+            },
+            {
+              "type": "postback",
+              "payload": "MANYCHATJSON(18769734)::ACT::d3cd45e5de0b840cf623c33e894a96de",
+              "title": "material?"
+            },
+            {
+              "type": "postback",
+              "payload": "MANYCHATJSON(18769734)::ACT::5a70456c73a7664e93d34d1c9722ae3a",
+              "title": "mărimea?"
+            }
+          ]
+        }
+      }
+    },
+    "receiving_app_id": 532160876956612
+  },
+  {
+    "message": {
+      "attachment": {
+        "type": "template",
+        "payload": {
+          "template_type": "button",
+          "text": "metoda de comanda",
+          "buttons": [
+            {
+              "type": "postback",
+              "payload": "MANYCHATJSON(18769734)::ACT::78d976edc40b5bdf53115d243cc7ecd5",
+              "title": "Comandă-te"
+            },
+            {
+              "type": "postback",
+              "payload": "MANYCHATJSON(18769734)::ACT::e09eac1458ef22f970489d90add805ed",
+              "title": "comanda manuala"
+            },
+            {
+              "type": "postback",
+              "payload": "MANYCHATJSON(18769734)::ACT::72a5ac4f57da074e7ac0dc7698065c27",
+              "title": "timpul de livrare"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "message": {
+      "attachment": {
+        "type": "image",
+        "payload": {
+          "attachment_id": 557218929833216
+        }
+      }
+    }
+  }
+]
